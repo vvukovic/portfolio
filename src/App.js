@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Button from "@mui/material/Button";
 
 function App() {
   return (
@@ -8,6 +10,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <p>
+          <Button variant="contained">Click here to continue</Button>
         </p>
         <a
           className="App-link"
